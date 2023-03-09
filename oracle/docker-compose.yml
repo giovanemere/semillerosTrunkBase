@@ -1,0 +1,17 @@
+version: "3.4"
+services:
+  oracle-19c:
+    image: doctorkirk/oracle-19c
+    container_name: oracle-19c
+    ports:
+      - 1521:1521
+    environment:
+      - ORACLE_SID=STERLPRD
+      - ORACLE_PWD=Banco123*
+      - ORACLE_CHARACTERSET=AL32UTF8
+    volumes:
+      - ./oracle-data/oracle-19c/oradata:/opt/oracle/oradata
+    restart: always
+
+volumes:
+  oracle-data:
