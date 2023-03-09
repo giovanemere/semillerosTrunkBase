@@ -49,7 +49,7 @@ clon2=${3}
    # Add todo slo scambios de la carpeta actual
       echo "--------------------------------------------"   
          git add .
-         echo "- Reporte Status----------------------------"
+         echo "- Agregar cambios locales ------------------"
       read -p "Press [Enter] key to continue..." readEnterKey
    
    # Agregar Comentario
