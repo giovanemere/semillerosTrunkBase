@@ -63,6 +63,6 @@ clon2=${3}
          git push origin $rama
          echo "- Subir a $rama --------------------------"
       echo "--- Fin del Script -------------------------"
-
-read -p "Press [Enter] key to continue..." readEnterKey
+      read -p "Press [Enter] key to continue..." readEnterKey
+   echo "Fin Script"
 #Fin Script
