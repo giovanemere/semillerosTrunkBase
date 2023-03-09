@@ -33,7 +33,7 @@ clon2=${3}
    fi
    
 # Pasos de Clonacion
-   #Imprimir Variables
+   # Imprimir Variables
       echo -e "--------------------------------------------"  
       echo "comentario :[$comment] | rama :[$rama]"
       echo -e "--------------------------------------------"  
@@ -58,11 +58,11 @@ clon2=${3}
          echo "- Agregar Comenatario ---------------------"
       read -p "Press [Enter] key to continue..." readEnterKey
 
-   #Subir cambios a la rama remota
+   # Subir cambios a la rama remota
       echo "--------------------------------------------"   
          git push origin $rama
          echo "- Subir a $rama --------------------------"
       echo "--- Fin del Script -------------------------"
       read -p "Press [Enter] key to continue..." readEnterKey
-   echo "Fin Script"
+      # Pedira acceso de credenciales en github por front desde el visual code
 #Fin Script
